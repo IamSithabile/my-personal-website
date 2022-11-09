@@ -1,5 +1,5 @@
 import React from "react";
-import { AppWrap } from "../../wrapper";
+
 import { images } from "../../constants";
 
 import "./Home.scss";
@@ -51,6 +51,7 @@ const Home = () => {
               Hi there! This is Sithabile Mananga, a Front End Web Developer
               that loves people, cultures and diversity.
             </p>
+            <br />
             <p>
               As a Developer I love to Work on digital products that meet
               current market requirements.
@@ -65,7 +66,7 @@ const Home = () => {
             </p>
 
             <div className="signature">
-              <img src={images.signature} alt="" />
+              <img src={images.signature} alt="Sithabile`s signature" />
             </div>
           </div>
         </div>
