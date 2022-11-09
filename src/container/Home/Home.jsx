@@ -6,7 +6,7 @@ import "./Home.scss";
 const Home = () => {
   return (
     <>
-      <div className="app__header ">
+      <section className="home">
         <div className="home__header">
           <p className="home__header--title"> Welcome to</p>
           <h1 className=" home__header--inter">Sithabile`s</h1>
@@ -39,8 +39,12 @@ const Home = () => {
 
         <div className="home__about">
           <div className="home__about--image">
-            <img src="" alt="" />
+            <img
+              src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/104199796_2950152045097383_3974111228118181718_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pjAUzubFsF4AX8hvabH&tn=q6xyB2KiYpfSobeq&_nc_ht=scontent-cpt1-1.xx&oh=00_AfA3XAXW6QXUrScm0_I2WBi9HVrr0BWZEeiIiR4zaTKP7w&oe=63933AE1"
+              alt="Portrait shot of Sithabile"
+            />
           </div>
+
           <div className="home__about--text">
             <h3>About Me</h3>
             <p>
@@ -65,7 +69,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
